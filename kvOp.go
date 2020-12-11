@@ -5,7 +5,6 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/cockroachdb/cockroach/pkg/workload"
-	"github.com/cockroachdb/cockroach/pkg/workload/histogram"
 )
 
 type kvOp struct {
